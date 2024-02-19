@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+
+}
+html{
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+ul{
+    
+    list-style: none;
+    height: 100%;
+    width:100px;
+    position: fixed;
+    top: 0; left: 0;
+    background: black;
+    opacity: 70%;
+    filter: blur(20%);
+    box-shadow: 2px 0px 5px gray;
+    display: flex;
+    width: 100%;
+   height: 1%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+
+}
+ul li{
+    margin: 5px;
+    padding: 1px;
+    margin-top: 75px;
+    list-style: none;
+    display: inline-block;
+    margin:0 20px;
+    position: relative;
+   left: 5%;
+    width: 85%;
+   height: 20%;
+    
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+    
+}
+
+ul li a::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: rgb(233, 236, 240);
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+ul li a:hover::after{
+    width: 35%;
+    }
+
+section{
+    height: 100vh;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#HOME{
+    background-image: linear-gradient(rgba(189, 201, 238, 0.7),rgba(29, 32, 43, 0.7)),url(cafe3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+#MENU{
+    background-image: linear-gradient(rgba(54, 58, 71, 0.7),rgba(37, 42, 58, 0.7)),url(coffee2.jpg);margin-top: 1%; height: 100vh; margin-left: 0%; margin-right: 0%;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120vh;
+}
+#PAGESCONTACT{
+    background-image: linear-gradient(rgba(42, 48, 68, 0.7),rgba(78, 90, 134, 0.7)),url(cafe4.jpg);margin-top: 1%; height: 100vh; margin-left: 0%; margin-right: 0%;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+    
+}
+
+.content2{
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    transform: translate(0%);
+    text-align: left;
+    margin-left: 20;
+   color: #fff;
+
+}
+.content2 h1{
+    margin-left: 7%;
+    font-size: 70px;
+    margin-top: 3px;
+    
+}
+.content2 p{
+    margin-left: 7%;
+    font-weight: 100;
+    line-height: 25px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.content2 p1{
+    color: #d87a7a;
+    font-size: 18px;
+    margin-left: 7%;
+    font-weight: 100;
+    line-height: 25px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+button{
+    width: 200PX;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #d87a7a;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    left: 6%;
+    margin-top: 0%;
+}
+.content4{
+    width: 100%;
+    position: absolute;
+    top: 187%;
+    transform: translate(0%);
+    text-align: left;
+    margin-left: 20;
+   color: #fff;
+
+}
+.content4 h1{
+    margin-left: 7%;
+    font-size: 17px;
+    margin-top: 3px;
+    
+}
+
+.content5{
+    width: 50%;
+    position: absolute;
+    top: 300%;
+    transform: translate(0%);
+    text-align: left;
+    margin-left: 20;
+   color: #fff;
+   left: 25%;
+   
+
+}
+.content5 h1{
+    margin-left: 7%;
+    font-size: 30px;
+    margin-top: 3px;
+    
+}
+.content5 p{
+    margin-left: 25%;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+span{
+    background: #d87a7a;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+
+}
+button:hover{
+    border: none;
+}
+
+.image2{
+   float: right;
+   position: absolute;
+    left: 39%;
+    top: 75%;
+    width: 300px;
+    border-radius: 4px;
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+.image3{
+    float: right;
+    position: absolute;
+     left: 60%;
+     top: 118%;
+     width: 400px;
+     border-radius: 8px;
+     height: auto;
+     max-width: 100%;
+     overflow: hidden;
+     border: 10px solid black;
+     box-shadow: 10px 25px 30px rgba(red, green, blue, alpha);
+     border-style: groove;
+    
+
+
+ }
+ .image4{
+    float: right;
+    position: absolute;
+     left: 22%;
+     top: 189%;
+     width: 200px;
+     border-radius: 8px;
+     height: auto;
+     max-width: 100%;
+     overflow: hidden;
+     
+
+
+ }
+ 
+ 
+ 
+ 
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+footer{
+    background-color: rgb(27, 27, 27);
+    top: 260%;
+    left: -10%;
+    position: absolute;
+    width: 110%;
+    
+}
+.footerContainer{
+    width: 100%;
+    padding: 1px -1px 20px;    
+    overflow: hidden;
+    max-width: 100%;
+   
+    
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 5em;
+}
+
+.socialIcons a i{
+    font-size: 10%;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover Effects on Social Media Icons */
+.socialIcons a:hover{
+    background-color: rgb(66, 106, 141);
+    transition: 0.5;
+}
+.footerNav{
+    margin: 30px 0;
+
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footerBottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+    
+}
+
+
+
+.container{
+    width: 100vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 150%;
+    left: 30%;
+    height: 60%;
+    overflow: hidden;
+    border: 8px solid black;
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(red, green, blue, alpha);
+    border-style: groove;
+    
+}
+.wrapper{
+    width: 120%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 546px ){
+    .text {
+        font-size: 16px;
+    }
+}
+
